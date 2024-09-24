@@ -1,0 +1,74 @@
+.sub-button {
+    background-color: rgb(21, 255, 0);
+    color: rgb(235, 235, 235);
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+    border-style: solid;
+}
+
+.salam-button {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(0, 242, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: background-color 1s, color 1s;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.salam-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 251, 255);
+    border-color: rgb(0, 213, 255);
+}
+
+.salam-button:active {
+    opacity: 0.7;
+}
+
+.t-button {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 20px;
+    border-style: solid;
+    transition: background-color 1s, color 1s;
+    cursor: pointer;
+}
+
+.t-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-color: red;
+
+}
+
+
+
+
+.new-button {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    transition: background-color 1s, color 1s;
+    border-style: solid;
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+
+}
+
+
+.new-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-color: black;
+
+}
